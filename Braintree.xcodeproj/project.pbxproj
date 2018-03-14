@@ -506,14 +506,14 @@
 		A76D7C3B1BB31A4B0000FA6A /* libDeviceCollectorLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A76D7C271BB1D31A0000FA6A /* libDeviceCollectorLibrary.a */; };
 		A77120521CD95DD50004FFD3 /* BraintreeCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C889901B5F043B007A0E9C /* BraintreeCard.framework */; };
 		A77344FA1B7A93A10083EC8D /* BraintreeUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A77344F91B7A93A10083EC8D /* BraintreeUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A77345891B7A93D00083EC8D /* BTUILocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345071B7A93D00083EC8D /* BTUILocalizedString.h */; };
+		A77345891B7A93D00083EC8D /* BTUILocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345071B7A93D00083EC8D /* BTUILocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A773458A1B7A93D00083EC8D /* BTUILocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345081B7A93D00083EC8D /* BTUILocalizedString.m */; };
 		A773458B1B7A93D00083EC8D /* UI.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77345091B7A93D00083EC8D /* UI.strings */; };
 		A773458C1B7A93D00083EC8D /* BTUICardExpirationValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345201B7A93D00083EC8D /* BTUICardExpirationValidator.h */; };
 		A773458D1B7A93D00083EC8D /* BTUICardExpirationValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345211B7A93D00083EC8D /* BTUICardExpirationValidator.m */; };
 		A773458E1B7A93D00083EC8D /* BTUICardExpiryFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345221B7A93D00083EC8D /* BTUICardExpiryFormat.h */; };
 		A773458F1B7A93D00083EC8D /* BTUICardExpiryFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345231B7A93D00083EC8D /* BTUICardExpiryFormat.m */; };
-		A77345901B7A93D00083EC8D /* BTUICardType.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345241B7A93D00083EC8D /* BTUICardType.h */; };
+		A77345901B7A93D00083EC8D /* BTUICardType.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345241B7A93D00083EC8D /* BTUICardType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A77345911B7A93D00083EC8D /* BTUICardType.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345251B7A93D00083EC8D /* BTUICardType.m */; };
 		A77345921B7A93D00083EC8D /* BTUIUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345261B7A93D00083EC8D /* BTUIUtil.h */; };
 		A77345931B7A93D00083EC8D /* BTUIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345271B7A93D00083EC8D /* BTUIUtil.m */; };
@@ -2480,6 +2480,8 @@
 		412FE0581B97A7F6008AAABE /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				A77345071B7A93D00083EC8D /* BTUILocalizedString.h */,
+				A77345241B7A93D00083EC8D /* BTUICardType.h */,
 				91706CB2205972D500940CF2 /* BTUICardCvvField.h */,
 				91706CB6205972D500940CF2 /* BTUICardExpiryField.h */,
 				91706CB3205972D500940CF2 /* BTUICardNumberField.h */,
@@ -3131,7 +3133,6 @@
 		A77345061B7A93D00083EC8D /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				A77345071B7A93D00083EC8D /* BTUILocalizedString.h */,
 				A77345081B7A93D00083EC8D /* BTUILocalizedString.m */,
 				A77345091B7A93D00083EC8D /* UI.strings */,
 			);
@@ -3146,7 +3147,6 @@
 				A77345211B7A93D00083EC8D /* BTUICardExpirationValidator.m */,
 				A77345221B7A93D00083EC8D /* BTUICardExpiryFormat.h */,
 				A77345231B7A93D00083EC8D /* BTUICardExpiryFormat.m */,
-				A77345241B7A93D00083EC8D /* BTUICardType.h */,
 				A77345251B7A93D00083EC8D /* BTUICardType.m */,
 				A77345261B7A93D00083EC8D /* BTUIUtil.h */,
 				A77345271B7A93D00083EC8D /* BTUIUtil.m */,
